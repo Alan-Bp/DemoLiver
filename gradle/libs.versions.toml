@@ -1,0 +1,60 @@
+[versions]
+agp = "8.3.1"
+kotlin = "1.9.0"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+retofit = "2.9.0"
+jsonconvert = "2.9.0"
+logginginterceptor = "4.11.0"
+glideversion = "4.12.0"
+coroutines-corever = "1.7.1"
+coroutines-androidver = "1.7.1"
+lifecycle-viewmodelVEr = "2.6.1"
+hilt-compilerVer = "2.50"
+ksp = "1.9.23-1.0.20"
+org-jetbrains-kotlin-android = "1.8.0"
+lifecycle-runtime = "2.4.0"
+hilt-lifecycleVer="1.0.0-alpha03"
+activity_version = "1.8.0"
+fragment_version = "1.5.4"
+multidexVer = "1.0.3"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+android-retofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retofit" }
+json-convert = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "jsonconvert" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logginginterceptor" }
+bumptech-glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glideversion" }
+bumptech-glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glideversion" }
+kotlin-coroutinescore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-corever" }
+kotlin-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines-androidver" }
+androidx-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodelVEr" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-compilerVer" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt-compilerVer" }
+lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime" }
+lifecycle-viewmodl = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime" }
+hilt-lifecycle = { group = "androidx.hilt", name = "hilt-lifecycle-viewmodel", version.ref = "hilt-lifecycleVer" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity_version" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment_version" }
+multidex = { group = "com.android.support", name = "multidex", version.ref = "multidexVer" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-compilerVer" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+

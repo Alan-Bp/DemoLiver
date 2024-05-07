@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoItems</string>
+    <string name="ic_luna">Icono de luna</string>
+    <string name="tv_search">Buscar...</string>
+    <string name="precio_con_descuento">Precio con descuento</string>
+    <string name="precio_normal">Precio normal</string>
+    <string name="t_tulo_del_producto">Lista de Productos</string>
+    <string name="imagen_del_producto">Imagen del producto</string>
+    <string name="tvOrdenar">Ordenar</string>
+</resources>

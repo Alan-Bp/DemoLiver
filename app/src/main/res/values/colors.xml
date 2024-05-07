@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorGrey">#535353</color>
+    <color name="colorGrey2">#0A222222</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="colorRed">#F44336</color>
+    <color name="clorPink">#56F4BAFD</color>
+    <color name="clorAzulLink">#1089EA</color>
+    <color name="clorPink2">#D7F436D4</color>
+
+
+</resources>
